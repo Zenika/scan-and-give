@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "NotoSerif-Bold";
+  font-style: normal;
+  font-weight: 500;
+  src: local("MyFont"), url(./NotoSerif-Bold.ttf) format("truetype");
+}
