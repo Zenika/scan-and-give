@@ -1,0 +1,30 @@
+.navbar {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  height: 56px;
+
+  position: sticky;
+  top: 0;
+
+  .logo {
+    margin-right: 5px;
+  }
+
+  .navbar-brand {
+    .title {
+      position: relative;
+
+      .version {
+        position: absolute;
+        right: -16px;
+        top: 0;
+        background-color: hsl(48, 100%, 67%);
+        color: black;
+        font-variant: small-caps;
+        padding: 0 4px 2px 4px;
+        font-size: 8px;
+        border-radius: 2px;
+        transform: rotate(34deg);
+      }
+    }
+  }
+}

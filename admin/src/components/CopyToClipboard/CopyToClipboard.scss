@@ -1,0 +1,24 @@
+.copy-to-clipboard {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  .copied {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-1em);
+    color: #000;
+    transition: all 0.5s;
+  }
+
+  &.clicked {
+    .copied {
+      opacity: 1;
+      transform: translateY(-2em);
+    }
+  }
+}

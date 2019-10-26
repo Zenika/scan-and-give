@@ -1,0 +1,15 @@
+.events {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > * {
+      margin: 0.7em;
+    }
+  }
+}

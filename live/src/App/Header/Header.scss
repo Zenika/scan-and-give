@@ -1,0 +1,64 @@
+#header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img.zenikanard {
+      width: 100px;
+      margin: 1em 2em;
+    }
+
+    .title {
+      font-family: 'McLaren';
+      font-size: 80px;
+      color: #eee;
+    }
+
+    .stats-btn {
+      color: #eee;
+      margin: 1em 3em;
+      i {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .explanations {
+    color: #eee;
+    font-size: 20px;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+#scan {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  video {
+    margin-top: 20px;
+    height: 370px;
+  }
+
+  .retour-btn {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    text-decoration: none;
+
+    div {
+      background-color: lightgray;
+      color: black;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+    }
+  }
+}

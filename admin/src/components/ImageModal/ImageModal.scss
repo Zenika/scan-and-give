@@ -1,0 +1,14 @@
+.update-image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 1em;
+
+  img {
+    object-fit: contain;
+  }
+}

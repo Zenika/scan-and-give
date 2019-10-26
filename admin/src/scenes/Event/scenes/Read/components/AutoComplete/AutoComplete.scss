@@ -1,0 +1,25 @@
+.autocomplete {
+  position: relative;
+
+  .suggestions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    color: #363636;
+
+    .suggestion {
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
