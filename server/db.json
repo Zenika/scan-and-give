@@ -2,21 +2,21 @@
   "associations": [
     {
       "id": 1,
-      "nom": "Musique pour tous",
-      "image": "/logos/musique_pour_tous.png",
-      "description": "Musique pour Tous est une association dont l’objectif est de favoriser, par l’apprentissage de la musique, l’épanouissement et l’intégration sociale de jeunes âgés de 7 à 20 ans qui n’ont pas accès à cet art pour des raisons économiques, sociales ou culturelles. Nous mettons en place des ateliers de musique ludiques, gratuits et collectifs animés bénévolement par des musiciens amateurs locaux et passionnés dans des structures d’accueil travaillant déjà avec des jeunes. Par la pratique régulière et ludique de l’instrument, ces ateliers visent à renforcer l’estime de soi des participants, de stimuler leur créativité et de créer une expérience de vivre-ensemble enrichissante."
+      "nom": "Bordeaux Mécènes Solidaires",
+      "image": "/logos/bms.png",
+      "description": "La pauvreté touche plus d’1 personne sur 10 en Gironde. Près de chez nous des enfants, des femmes et des hommes vivent au quotidien des difficultés d’accès à l’éducation, à l’emploi, à la santé, au logement, au numérique… Nous, Bordeaux Mécènes Solidaires, voulons agir contre l’injustice sociale pour construire ensemble un territoire prospère et plus équitable, au bénéfice de tous."
     },
     {
       "id": 2,
-      "nom": "Talacatak",
-      "image": "/logos/talacatak.jpg",
-      "description": "Talacatak se présente comme un laboratoire, une passerelle de recherches, de développements et d’actions menées envers différents projets éducatifs, pédagogiques, artistiques et culturels liant les arts à l’environnement.\nTout à commencé lors de la rencontre entre Lionel Haïun, fondateur de l’association, et un bidon abandonné sur la voie publique ! Aujourd’hui le projet de Talacatak se caractérise par une action environnementale et des actions artistiques, éducatives et sociales, partagées par des centaines de bénéficiaire.\nTalacatak est une association culturelle reconnue d’utilité publique, créée à Paris en 2004. Née de la fabrication artisanale d’instruments de musique en matériaux récupérés, nous nous sommes rapidement tournés vers la transmission de ce savoir-faire et de ses valeurs. D’emblée, la démarche de Talacatak s’est construite autour d’un véritable questionnement pratique et éthique, du processus artistique et des valeurs de l’acte créatif."
+      "nom": "Les Clowns Stéthoscopes",
+      "image": "/logos/clowns_stethoscopes.png",
+      "description": "Les Clowns Stéthoscopes est une association loi 1901 à but non lucratif, reconnue d'intérêt général. Elle est membre de la FFACH (Fédération Française des Associations de Clowns Hospitaliers).\nFidèle aux principes et valeurs de l’Economie Sociale et Solidaire (ESS), l’association cherche à concilier activité économique et utilité sociale à travers le développement d’une activité créatrice de lien social et de solidarité en milieu de soins :\n  Améliorer la qualité de vie des enfants hospitalisés\n  Contribuer à un changement de regard sur la maladie\n  Améliorer la qualité de vie des personnes âgées accueillies en EHPAD\n  Contribuer à un changement de regard sur la vieillesse"
     },
     {
       "id": 3,
-      "nom": "Wikimédia",
-      "image": "/logos/wikimedia.png",
-      "description": "Imaginez un monde où chacun aurait accès à l’ensemble des connaissances de l’humanité. Wikimédia France aspire à cet idéal et oeuvre pour la diffusion libre et gratuite des savoirs sur Wikipédia.\nUn peu plus de détail...\nWikimédia France rassemble des contenus éducatifs sous licence libre, et les dissémine mondialement sur Wikipédia et ses projets frères. Ses missions sont de soutenir et former toutes personnes souhaitant participer et de diffuser le fruit de ce travail collaboratif.\nL’association sollicite avec les musées, les universités et toutes institutions de savoir pour libérer leurs richesses sur Wikipédia. Et puisque la connaissance n’est libre que si l’on sait s’en servir, nous enseignons à petits et grands l’usage de l’information et du savoir « faire ensemble » en France, et dans toute la francophonie.\nPar exemple grâce à la générosité du public l'association mobilise institutions et grand public à la création de biographies de femmes, grandes absentes de l'encyclopédie ( 18% de biographes de femmes contre 82% dédiées aux hommes)."
+      "nom": "Ekolo[geek]",
+      "image": "/logos/ekologeek.png",
+      "description": "L’association Ekolo[geek] s’est donnée pour mission de sensibiliser aux éco-gestes et à la consommation responsable. L’objectif est d’inciter les citoyens et les professionnels à intégrer les conséquences environnementales, sociales et économiques dans leurs choix de consommation et mode de vie. Cette démarche s’inscrit dans la logique du penser global, agir local.\n\nD’une part, Ekolo[geek] souhaite rendre l’information simple et accessible au grand public pour que chacun puisse agir au quotidien de manière responsable. D’autre part, l’association entreprend des actions concrètes de sensibilisation sur Internet et sur le terrain à forte valeur ajoutée pédagogique.\n\nEkolo[geek] dispose de deux atouts majeurs : une identité visuelle distinctive et éco-conçue ainsi qu’un réseau dynamique de bénévoles. Une partie des activités se fait aisément à distance grâce aux outils numériques, de la gestion du site web et des réseaux sociaux aux réunions de travail et Assemblées Générales.\n\nEn 2016, suite à la dynamique enclenchée dès 2015, la stratégie de développement de l’association s’est portée sur l’accompagnement de structures, publiques comme privées, dans leur démarche d’éco-responsabilité. A travers l’approche des éco-gestes, Ekolo[geek] organise des formations et ateliers, conçoit et fournit des outils de sensibilisation et réalise des études spécifiques à la demande."
     },
     {
       "id": 4,
