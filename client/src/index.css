@@ -41,7 +41,7 @@ body {
   margin: 1em 2em;
 }
 #header .main-header .title {
-  font-family: 'New Rocker';
+  font-family: "NotoSerif-Bold", serif;
   font-size: 80px;
   color: #eee;
 }
@@ -150,7 +150,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 35px;
-  font-family: 'New Rocker';
+  font-family: "NotoSerif-Bold", serif;
   margin: 0.5rem 0.5rem 0 0.5rem;
 }
 #association .wrapper .content .description {
