@@ -5,7 +5,7 @@ const Header = ({ location }) => (
   <div id="header">
     <div className="main-header">
       <img
-        src="/zenikanard.png"
+        src="/zenikanard.jpg"
         className="zenikanard"
         alt="zenikanard-logo"
         onClick={() => {
