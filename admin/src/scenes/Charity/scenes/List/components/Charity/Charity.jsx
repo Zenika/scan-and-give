@@ -12,6 +12,14 @@ const Charity = ({ charity }) => {
     <ItemCard item={charity}>
       <span className="item-content-line">
         <span>
+          <i className="far fa-calendar-alt has-text-info" />
+        </span>
+        <span>
+          {events.length} event{events.length !== 1 && 's'}
+        </span>
+      </span>
+      <span className="item-content-line">
+        <span>
           <i className="fas fa-user-friends has-text-info" />
         </span>
         <span>

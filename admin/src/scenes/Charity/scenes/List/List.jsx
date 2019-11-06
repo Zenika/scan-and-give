@@ -18,7 +18,7 @@ const List = () => {
     fetch('charity/list').onData(({ error, charities }) => {
       if (error) return console.error(error)
 
-      charities.sort((a, b) => b.donations_count - a.donations_count)
+      charities.sort((a, b) => a.name.localeCompare(b.name))
 
       setCharities(charities)
       setLoading(false)

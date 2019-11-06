@@ -25,6 +25,9 @@ const CharitiesTable = ({ event, onChange }) => {
   useEffect(() => {
     cachedFetch('charity/list').onData(({ error, charities }) => {
       if (error) return console.error(error)
+
+      charities.sort((a, b) => a.name.localeCompare(b.name))
+
       setCharities(charities)
     })
   }, [cachedFetch])
