@@ -52,7 +52,7 @@ const events = [
     charitiesIndex: [2, 3]
   },
   {
-    name: 'Devfest Nantes 2019',
+    name: 'Demo: Devfest Nantes 2019',
     image: `https://firebasestorage.googleapis.com/v0/b/scan-and-give.appspot.com/o/PEwh8AAFHAdJjz7CBcyumwnO11R2%2Fevents%2F81bf0774-7222-450a-80f4-8474d3607173.png?alt=media&token=ddf580a9-25e9-457e-9abb-936acf927bf5`,
     date: new admin.firestore.Timestamp(1571616000, 0),
     devise: 'EUR',

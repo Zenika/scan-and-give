@@ -1,0 +1,44 @@
+.live-event {
+  display: flex;
+  flex-direction: column;
+
+  .direct-and-qr-code {
+    display: flex;
+
+    .direct,
+    .qr-code,
+    .public-url {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+
+      & > *:nth-child(2) {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+      }
+    }
+
+    .direct > *:nth-child(2) {
+      padding-bottom: 20px;
+    }
+  }
+
+  .public-url {
+    b {
+      margin-left: 20px;
+    }
+
+    & > div {
+      display: flex;
+      margin: 10px 30px 10px 20px;
+
+      button {
+        margin-left: 5px;
+      }
+    }
+  }
+}

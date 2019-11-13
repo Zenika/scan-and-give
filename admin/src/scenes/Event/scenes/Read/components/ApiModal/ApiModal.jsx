@@ -16,7 +16,6 @@ const ApiModal = ({ active, onClose, event }) => {
             <input
               className="input is-small"
               type="text"
-              placeholder="Small input"
               readOnly={true}
               value={`${BASE_FUNCTIONS_URL}/live/${user.uid}/${event.id}`}
             />
@@ -29,7 +28,6 @@ const ApiModal = ({ active, onClose, event }) => {
             <input
               className="input is-small"
               type="text"
-              placeholder="Small input"
               readOnly={true}
               value={`${BASE_FUNCTIONS_URL}/live/${user.uid}/${event.id}/donations`}
             />

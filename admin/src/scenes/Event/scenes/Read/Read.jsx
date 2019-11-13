@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useMemo, useContext } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import fromUnixTime from 'date-fns/fromUnixTime'
 import compareDesc from 'date-fns/compareDesc'
 
 import { formatMoney, useTotal, formatTimestamp } from 'utils'
-import { useCachedFetch, UserContext } from 'services'
+import { useCachedFetch } from 'services'
 import { Loading } from 'components'
 
-import { ApiModal, CharitiesTable, DonationsTable } from './components'
+import { ApiModal, CharitiesTable, DonationsTable, LiveModal } from './components'
 
 import './Read.scss'
 
@@ -19,7 +19,6 @@ const Read = ({ match }) => {
   const [modal, setModal] = useState(null)
 
   const fetch = useCachedFetch()
-  const { user } = useContext(UserContext)
 
   useEffect(() => {
     fetch(`event/${match.params.id}`).onData(({ event }) => {
@@ -61,17 +60,15 @@ const Read = ({ match }) => {
                 <i className="fas fa-code" />
               </span>
             </button>
-            <a
-              href={`https://live-scan-and-give.web.app/${user.uid}/${event.id}`}
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
               className="button is-success"
+              onClick={() => setModal('live_modal')}
               data-tooltip="View live"
             >
               <span className="icon">
                 <i className="fas fa-eye" />
               </span>
-            </a>
+            </button>
             <Link to={match.url + '/edit'} style={{ marginLeft: '20px' }}>
               <button className="button is-info" data-tooltip="Edit event">
                 <span className="icon">
@@ -131,6 +128,7 @@ const Read = ({ match }) => {
         </div>
       </div>
       <ApiModal active={modal === 'api_modal'} onClose={() => setModal(null)} event={event} />
+      <LiveModal active={modal === 'live_modal'} onClose={() => setModal(null)} event={event} />
     </>
   )
 }
