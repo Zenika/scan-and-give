@@ -1,0 +1,14 @@
+.date-picker {
+  input {
+    padding: 0.5em 1em;
+    border: 1px solid #dbdbdb;
+    color: #363636;
+    font-size: 1.4em;
+    border-radius: 4px;
+
+    &:disabled {
+      background-color: #f5f5f5;
+      color: #7a7a7a;
+    }
+  }
+}

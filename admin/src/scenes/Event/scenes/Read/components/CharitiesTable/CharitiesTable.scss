@@ -1,0 +1,15 @@
+.event-new-charity {
+  &:hover td {
+    background-color: white;
+  }
+
+  .event-charity-autocomplete {
+    display: flex;
+
+    .field {
+      margin-bottom: 0;
+      flex: 1;
+      margin-right: 10px;
+    }
+  }
+}
