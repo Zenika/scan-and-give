@@ -9,5 +9,5 @@ npm install
 ## Usage
 
 ```bash
-HTTPS=true npm start
+npm start
 ```
