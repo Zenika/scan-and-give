@@ -24,9 +24,10 @@ const EventProvider = ({ children }) => {
     () => ({
       event,
       makeDonation,
-      sync: () => setReload(x => x + 1)
+      sync: () => setReload(x => x + 1),
+      retryStackLength: cache.retryStack.length
     }),
-    [event, makeDonation]
+    [event, makeDonation, cache.retryStack.length]
   )
 
   return <EventContext.Provider value={value}>{children}</EventContext.Provider>

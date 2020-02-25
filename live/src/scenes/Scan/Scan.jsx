@@ -111,7 +111,7 @@ Scan.translations = {
     back: 'Back',
     thanks: 'Thank you!',
     home: 'Home',
-    already_used: 'You already used you badge!'
+    already_used: 'You already used your badge!'
   }
 }
 

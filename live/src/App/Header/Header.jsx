@@ -43,7 +43,7 @@ const Header = ({ location }) => {
           <Link to={baseUrl} style={{ textDecoration: 'none' }}>
             <span className="title">Scan and Give</span>
           </Link>
-          <Link to={baseUrl + (location.pathname === '/stats' ? '/' : '/stats')}>
+          <Link to={baseUrl + (location.pathname.endsWith('/stats') ? '' : '/stats')}>
             <div className="stats-btn">
               <i className="material-icons">assessment</i>
             </div>

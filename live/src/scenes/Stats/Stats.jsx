@@ -7,7 +7,7 @@ import './Stats.scss'
 
 const Stats = () => {
   const [loading, setLoading] = useState(false)
-  const { event, sync } = useEvent()
+  const { event, sync, retryStackLength } = useEvent()
 
   useEffect(() => {
     setLoading(false)
@@ -60,6 +60,7 @@ const Stats = () => {
             }
           }}
         >
+          {retryStackLength > 0 ? retryStackLength : ''}
           <i className="material-icons">sync</i>
         </div>
       </div>
