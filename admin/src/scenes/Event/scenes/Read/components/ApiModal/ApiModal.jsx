@@ -17,7 +17,7 @@ const ApiModal = ({ active, onClose, event }) => {
               className="input is-small"
               type="text"
               readOnly={true}
-              value={`${BASE_FUNCTIONS_URL}/live/${user.uid}/${event.id}`}
+              value={`${BASE_FUNCTIONS_URL}/live/event/${user.uid}/${event.id}`}
             />
           </div>
         </div>
@@ -29,7 +29,7 @@ const ApiModal = ({ active, onClose, event }) => {
               className="input is-small"
               type="text"
               readOnly={true}
-              value={`${BASE_FUNCTIONS_URL}/live/${user.uid}/${event.id}/donations`}
+              value={`${BASE_FUNCTIONS_URL}/live/event/${user.uid}/${event.id}/donations`}
             />
           </div>
           <small>Body</small>
