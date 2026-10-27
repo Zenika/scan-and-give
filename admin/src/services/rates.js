@@ -7,7 +7,7 @@ const RatesProvider = ({ children }) => {
   const [rates, setRates] = useState(null)
 
   useEffect(() => {
-    fetch('https://api.exchangeratesapi.io/latest')
+    fetch('https://allratestoday.com/api/compat/exchangeratesapi/latest')
       .then(r => r.json())
       .then(({ base, rates }) => {
         fx.base = base
